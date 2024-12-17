@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center"
+    tools:context=".Signup_Page">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Signup Page ...."
+        android:textSize="32sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        />
+    <EditText
+        android:id="@+id/txt_email"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:inputType="text"
+        android:hint="Enter Email "
+        android:textColorHint="@color/black"
+        android:layout_marginTop="10dp"
+        />
+    <EditText
+        android:id="@+id/txt_password"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:inputType="numberPassword"
+        android:hint="Enter Password "
+        android:textColorHint="@color/black"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/txt_Cpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Enter Confirm Password "
+        android:inputType="numberPassword"
+        android:textColorHint="@color/black" />
+    <Button
+        android:id="@+id/Register_btn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Register "
+        android:textSize="22sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
